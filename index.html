@@ -4,12 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fetch from vercel</title>
+    <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
   </head>
   <body>
-    <button id="fetch-data">fetch!</button>
-    <div class="print-data">
-      <pre class="print-data__pre"></pre>
-    </div>
+    <header class="header">
+      <h1 class="header__title">Fetching data from vercel</h1>
+    </header>
+    <main>
+      <section class="section-data">
+        <button id="section-data__fetch-button">fetch!</button>
+        <div class="section-data__print-box">
+          <table class="section-data__data-table">
+            <thead>
+              <tr>
+                <th>id</th>
+                <th>name</th>
+                <th>age</th>
+                <th>email</th>
+              </tr>
+            </thead>
+            <tbody class="section-data__table-body"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

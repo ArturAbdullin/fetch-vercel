@@ -1,0 +1,19 @@
+body {
+  background-color: lightcyan;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.section-data__print-box {
+  height: 150px;
+  overflow-y: auto;
+}
